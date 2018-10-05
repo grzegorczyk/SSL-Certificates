@@ -1,0 +1,11 @@
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+
+# ignore Certificates files
+*.csr
+*.ext
+*.key
+*.pem
+*.srl
