@@ -22,4 +22,7 @@ subjectAltName = @alt_names
 DNS.1 = $*
 DNS.2 = $*.192.168.1.19.xip.io" >> $*.ext
 
+openssl x509 -req -in $*.csr -CA myCA.pem -CAkey myCA.key -CAcreateserial \
+-out $*.crt -days 1825 -sha256 -extfile $*.ext
+
 echo "SSL Certificate for $* successfully created"
