@@ -9,3 +9,4 @@ Thumbs.db
 *.key
 *.pem
 *.srl
+*.crt
