@@ -2,12 +2,12 @@
 
 cfg=sslserverconftxt.txt
 
-echo 'Create SSL Certificate for $*'
+echo "Create SSL Certificate for $* "
 
-echo 'Create a private key'
+echo "Create a private key"
 openssl genrsa -out $*.key 2048
 
-echo CSR und privaten Schluessel gleichzeitig erzeugen:
+echo "Create CSR and a private key"
 #openssl req -newkey rsa:2048 -sha1 -keyout $key.priv -config $cfg -new -out $key.csr
 openssl req -new -key $*.key -config $cfg -out $*.csr
 
