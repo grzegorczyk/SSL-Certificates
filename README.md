@@ -30,7 +30,7 @@ Enter the URL without https://
 Enter your passphrase.
 The Certificate will be palced in this Repository folder.
 
-# Example
+**Example**
 
 ```bash
 $ ./mkssl.sh testing.lcl
