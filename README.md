@@ -5,8 +5,8 @@
 ```bash
 $ ./mkcert.sh
 ```
-Enter a Common Name, you will need it to installing your root Certificate.
-
+Enter a Common Name, you will need it to installing your root Certificate.<br>
+<br>
 Enter a passphrase for myCA.key (myCA is now your own Certificate Authority). You will need the passphrase later to create Certificates.
 
 ### Installing your root Certificate
@@ -26,8 +26,8 @@ Enter a passphrase for myCA.key (myCA is now your own Certificate Authority). Yo
 ```bash
 $ ./mkssl.sh URL
 ```
-Enter the URL without https://
-Enter your passphrase.
+Enter the URL without https://<br>
+Enter your passphrase.<br>
 The Certificate will be palced in this Repository folder.
 
 **Example**
